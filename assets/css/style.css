@@ -1,0 +1,139 @@
+@font-face{
+    font-family: montserrat-reg;
+    src: url('../font/Montserrat-Regular.ttf');
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar{
+    padding: 20px 10px;
+    transition: 0.5s !important;
+}
+
+.title-banner{
+    width: 50%;
+    color: #fff;
+    position: relative;
+    left: 350px;
+    top: -400px;
+    z-index: 95;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'montserrat-reg';
+}
+
+@media screen and (max-width:800px){
+    .title-banner{
+        left: 90px;
+        top: -180px;
+        font-size: 10px;
+    }
+
+    nav img{
+        width: 100px;
+    }
+
+    #navbar{
+        background-color: #333 !important;
+        padding: 10px;
+    }
+
+    .navbar-toggler-icon{
+        width: 20px !important;
+    }
+}
+
+/* nav */
+.nav-item a{
+    color: #fff !important;
+}
+
+.dropdown-menu a{
+    color: #fff !important;
+}
+
+.dropdown-menu a:hover{
+    background: #fff !important;
+    color: #333 !important;
+    transition: 0.5s !important;
+}
+
+.dropdown-menu{
+    background-color: #333333 !important;
+}
+
+
+/* history */
+.history-wrapper{
+    width: 100%;
+    height: 900px;
+    /* background-color: red; */
+}
+.history-picture-wrap{
+    width: 700px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: red; */
+}
+
+.history-tag{
+    width: 35% !important;
+    height: 50px;
+    background-color: #000;
+    opacity: 80%;
+    z-index: 99;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    margin-top: -25%;
+}
+
+.history-picture{
+    width: 33%;
+    margin-right: -5px;
+    z-index: -9;
+}
+
+.history-text-wrap{
+    width: 800px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;; */
+    color: #737373;
+    /* background-color: blue; */
+}
+.history-text-wrap>hr{
+    width: 70%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 8px;
+  }
+  
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+/* News */
+
